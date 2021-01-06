@@ -1,0 +1,20 @@
+{
+  "name": "simonboot/localeswitch",
+  "description": "Locale switcher for Laravel with automatic URL formatting",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simas Butavičius",
+      "email": "simasbutavicius@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SimonBoot\\LocaleSwitch\\": "src"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0"
+  }
+}
