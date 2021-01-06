@@ -1,10 +1,10 @@
 <?php
 
-namespace SimonBoot\LocaleSwitch;
+namespace SimonBoot\LocaleSwitch\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
-use SimonBoot\LocaleSwitch\LocaleSwitchMiddleware;
+use SimonBoot\LocaleSwitch\Middleware\LocaleSwitchMiddleware;
 
 class LocaleSwitchServiceProvider extends ServiceProvider
 {

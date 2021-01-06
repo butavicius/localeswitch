@@ -20,7 +20,7 @@
   "extra": {
       "laravel": {
           "providers": [
-              "SimonBoot\\LocaleSwitch\\LocaleSwitchServiceProvider"
+              "SimonBoot\\LocaleSwitch\\Providers\\LocaleSwitchServiceProvider"
           ]
       }
   }

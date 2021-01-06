@@ -1,13 +1,13 @@
 <?php
 
-namespace App\View\Components;
+namespace SimonBoot\LocaleSwitch\ViewComponents;
 
 use Illuminate\Http\Request;
 use Illuminate\View\Component;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
-class LocaleSwitcherComponent extends Component
+class LocaleSwitchComponent extends Component
 {
 
     public function currentRouteWithLocale(string $locale): string
