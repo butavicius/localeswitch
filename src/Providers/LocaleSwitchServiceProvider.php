@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Providers;
+namespace SimonBoot\LocaleSwitch;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Routing\Router;
+use SimonBoot\LocaleSwitch\LocaleSwitch;
 
 class LocaleSwitchServiceProvider extends ServiceProvider
 {
@@ -23,6 +25,8 @@ class LocaleSwitchServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+          $router = $this->app->make(Router::class);
+          $router->pushMiddlewareToGroup('web', LocaleSwitch::class);
         //
     }
 }
