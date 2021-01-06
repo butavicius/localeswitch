@@ -1,4 +1,4 @@
 **Locale switcher for Laravel**
 
 TODO:
-Make normal package
+Make facade or some way to get available language list.
