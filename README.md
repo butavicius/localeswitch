@@ -21,7 +21,7 @@ Add this to laravel's composer.json:
   "repositories": [
     {
       "type": "path",
-      "url": "vendors/simonboot/localeswitch"
+      "url": "vendor/simonboot/localeswitch"
     }
   ]
 ```
