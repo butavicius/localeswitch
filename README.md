@@ -1,4 +1,4 @@
-***Locale switcher for Laravel***
+*Locale switcher for Laravel*
 
 TODO:
 Make facade or some way to get available language list.
@@ -21,11 +21,10 @@ Add this to laravel's composer.json:
   "repositories": [
     {
       "type": "path",
-      "url": "../../packages/blogpackage"
+      "url": "vendors/simonboot/localeswitch"
     }
   ]
 ```
 *Step 3*
 
 run `composer require simonboot/localeswitch` from Laravel's project directory.
-
